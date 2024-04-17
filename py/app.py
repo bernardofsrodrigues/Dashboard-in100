@@ -44,10 +44,10 @@ def consultar_api(df):
     return resultados
 
 def obter_token():
-    url = "https://api-parceiro.bancomaster.com.br/token"
+    url = "" #URL, usuario e senha ocultados
     payload = json.dumps({
-        "usuario": "35042619000143",
-        "senha": "?1JxZ75bkH/(<O2v"
+        "usuario": "",
+        "senha": ""
     })
     headers = {
         'Content-Type': 'application/json'
